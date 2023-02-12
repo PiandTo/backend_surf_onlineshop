@@ -7,7 +7,9 @@ CREATE TABLE backendshop.product (
     name varchar(50),
     type varchar(50),
     price int,
-    is_selected bool,
+    new_product bool,
+    hot_product bool,
+    old_price int,
     image text,
     description text
 );

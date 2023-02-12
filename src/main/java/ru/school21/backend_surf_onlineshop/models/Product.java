@@ -17,9 +17,11 @@ public class Product {
 
 	private String name;
 
-	private boolean isSelected = false;
+	private boolean newProduct = false;
+	private boolean hotProduct = false;
 
 	private long price;
+	private long oldPrice;
 
 	@Enumerated(EnumType.STRING)
 	private ProductType type;
