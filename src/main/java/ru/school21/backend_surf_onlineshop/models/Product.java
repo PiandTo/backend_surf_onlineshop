@@ -1,4 +1,4 @@
-package ru.school21.backendshop.models;
+package ru.school21.backend_surf_onlineshop.models;
 
 import lombok.Getter;
 import lombok.Setter;

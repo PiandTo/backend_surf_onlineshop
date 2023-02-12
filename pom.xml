@@ -9,18 +9,14 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ru.school21</groupId>
-    <artifactId>backendshop</artifactId>
+    <artifactId>backend_surf_onlineshop</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>backendshop</name>
-    <description>backendshop</description>
+    <name>backend_surf_onlineshop</name>
+    <description>backend_surf_onlineshop</description>
     <properties>
         <java.version>8</java.version>
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -50,6 +46,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
     </dependencies>
 
